@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const generateFlashcards = async (text: string, category: string) => {
   try {
-    const response = await axios.post("https://generator-ai-flashcard.netlify.app/api/generate", {
+    const response = await axios.post("http://localhost:5000/generate-flashcards", {
       text,
       category,
     });
