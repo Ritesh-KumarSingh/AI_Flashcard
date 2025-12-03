@@ -13,3 +13,4 @@ export const generateFlashcards = async (text: string, category: string) => {
     throw new Error("Failed to generate flashcards");
   }
 };
+
